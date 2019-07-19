@@ -4,6 +4,6 @@ exports.handler = (event, context, callback) => {
     currentTime.setTimezone("Europe/Copenhagen");
     callback(null, {
         statusCode: '200',
-        body: 'The time in Europe/Copenhagen is: ' + currentTime.toString(),
+        body: 'The TIME in Europe/Copenhagen is: ' + currentTime.toString(),
     });
 };
